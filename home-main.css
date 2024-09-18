@@ -1,0 +1,39 @@
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #272525;
+}
+
+main > *{
+	font-family: "Bebas Neue", sans-serif;
+	color: rgb(75, 239, 239);
+	/* margin: 0; */
+}
+
+main > h1{
+	font-size: 40px;
+	letter-spacing: 0.2em;
+	margin: 0;
+}
+
+.first-paragraph{
+	display: flex;
+	margin-top: 1em;
+	padding: 0em;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.first-paragraph > img{
+	height: 18em;
+	margin-top: 2em;
+}
+
+.first-paragraph > .MovR-12{
+	max-width: 25em;
+	flex-grow: 1;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 0.2em;
+}
