@@ -1,16 +1,29 @@
 body {
-    background-color: #f0f0f0;
+    background-color: grey;
     font-family: Arial, sans-serif;
 }
 
-.infoBoutUS {
-
-	display:flex;
-	justify-content: space-between;
-	align-items:center;
+.AboutWholeTeam {
+    display: flex; 
+    align-items: center; 
+    padding: 20px; 
+}
+.AboutWholeTeam > img {
+    max-width: 50px; 
+    height: auto; 
+    margin-right: 15px; 
 }
 
-.InfoBoutUs > img{
-	height: 64px;
-	width:  64px;
+.AboutWholeTeam > div {
+    max-width: 600px; 
 }
+.AboutWholeTeam > h2 {
+    text-align: left; 
+    margin: 0 0 10px; 
+}
+
+.AboutWholeTeam > p {
+    margin: 0; 
+}
+
+/* Slut på section 1*/
