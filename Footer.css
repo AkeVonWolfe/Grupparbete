@@ -8,6 +8,49 @@ body{
 	padding:0;
 	box-sizing: border-box;
 }
+header{
+	background-color: #161414;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo-img{
+	flex-basis: 10em;
+	max-width: 10em;
+	flex-shrink: 1;	
+}
+
+nav{
+	margin: 1em;
+	/* display: flex; */
+	width: 90%;
+	/* justify-content: center; */
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	/* justify-items: center; */
+	gap: 1.3em;
+}
+
+nav > *{
+
+	background-color: rgb(75, 239, 239);
+	border: 2px solid rgb(31, 86, 115);
+	border-radius: 0.5em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(22, 20, 20);
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+nav > *:hover{
+	background-color: rgb(64, 201, 201);
+}
 .container{
 	max-width: 1170px;
 	margin:auto;
