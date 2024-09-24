@@ -38,3 +38,13 @@ nav > *{
 nav > *:hover{
 	background-color: #40c9c9;
 }
+
+@media(max-width: 767px){
+	nav{ grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;}
+}
+
+@media(max-width: 260px){
+	nav{grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;}
+}

@@ -41,10 +41,10 @@ main > h1{
 
 }
 
-.first-paragraph > img, .second-paragraph > img{
-	height: 18em;
+.images > img{
+	max-height: 18em !important;
+	max-width: 100%;
 	border-radius: 1em;
-	
 }
 
 .first-paragraph > .MovR-12, .second-paragraph > .MovR-13, .reviews{
@@ -66,11 +66,9 @@ main > h1{
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
 	margin-top: 7em;
-	/* margin-right: 6em; */
-	/* padding-right: 4em;	 */
 	max-width: 55%;
 }
-@media(max-width: 1000px){
+@media(max-width: 767px){
 	.reviews{max-width: 80%;}
 }
 
