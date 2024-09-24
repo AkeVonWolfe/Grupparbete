@@ -14,13 +14,9 @@ header{
 
 nav{
 	margin: 1em;
-	/* display: flex; */
 	width: 90%;
-	/* justify-content: center; */
-	
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	/* justify-items: center; */
 	gap: 1.3em;
 }
 
