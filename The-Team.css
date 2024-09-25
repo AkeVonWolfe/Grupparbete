@@ -1,88 +1,54 @@
 body {
-    background-color: grey;
-    font-family: Arial, sans-serif;
+  background-color: grey;
+  font-family: Arial, sans-serif;
 }
-
-
 
 /* Sektioner*/
 
+.team-members {
+  display: flex;
+  flex-direction: column;
+  img {
+    max-width: 500px;
+    align-self: center;
+  }
+}
 
 .team-members h2 {
-	text-align: center;
-	
-}
-
-.AboutUs {
-    display: flex;
-    margin: 24px;
-    padding: 3px;
-    border: 3px solid black;
-    border-radius: 3em;
-	
-}
-
-.text1 {
-    display: flex;
-    justify-content: center;
-}
-
-.rubrik1 {
-    display: flex;
-    justify-content: center;
-}
-
-.team-group-img {
-	text-align: center;
-	max-width: 100%;
-	height: auto;
-    
-	
+  text-align: center;
 }
 
 .team-container {
-    display: flex;
-    justify-content: space-around;
-    margin: 24px;
-	
+  display: flex;
+  justify-content: space-around;
+  margin: 24px;
 }
 
 .team-member {
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 16px;
-    width: 200px;
-    margin: 12px;
-    text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 16px;
+  width: 200px;
+  margin: 12px;
+  text-align: center;
 }
-
-
-
 
 /*Slut på section 1*/
 
-
-
-
-
-
 .hire-us {
-    display: flex;
-    justify-content: center;
-    margin: 24px;
-    padding: 0.5px;
-    border: 3px solid black;
-    border-radius: 0.5em;
-	border-color: aqua;
-	margin-top: 20em;
-	
+  display: flex;
+  justify-content: center;
+  margin: 24px;
+  padding: 0.5px;
+  border-radius: 0.5em;
+  margin-top: 20em;
 }
 
 .hire-us img {
-    margin: 24px;
-    width: 40em;
-    height: 50em;
+  margin: 24px;
+  width: 40em;
+  height: 50em;
 }
 
 /*Slut på section 2*/
