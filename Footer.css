@@ -1,77 +1,3 @@
-*{
-	box-sizing: border-box;
-}
-
-body{
-	margin: 0;
-}
-
-/* Shweta */
-/* Container to center the content */
-.container {
-	text-align: center;
-	margin: 50px auto;
-	font-family: Arial, sans-serif;
-	max-width: 500px;
-  }
-  
-  /* Style for the info button */
-  .info-btn {
-	background-color: #ff6600;
-	color: white;
-	border: none;
-	padding: 10px 20px;
-	font-size: 16px;
-	font-weight: bold;
-	cursor: pointer;
-	border-radius: 8px;
-	transition: background-color 0.3s ease;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .info-btn:hover {
-	background-color: #e65c00;
-  }
-  
-  /* Style for the info content box */
-  .info-content {
-	background-color: #f9f9f9;
-	padding: 20px;
-	border: 1px solid #ccc;
-	border-radius: 8px;
-	margin-top: 20px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style for the info content header */
-  .info-content h3 {
-	color: #ff6600;
-	margin-top: 0;
-  }
-  
-  /* Styling the list of features */
-  .info-content ul {
-	list-style-type: none;
-	padding: 0;
-  }
-  
-  .info-content ul li {
-	margin: 8px 0;
-  }
-  
-  .info-content ul li strong {
-	color: #333;
-  }
-  
-  /* Responsive media query */
-  @media (max-width: 600px) {
-	.info-content {
-	  width: 100%;
-	  padding: 15px;
-	}
-  }
-  
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
 	line-height: 1.5;
@@ -95,7 +21,7 @@ ul{
 }
 .footer{
 	background-color: #24262b;
-    padding: 70px 0;
+    padding: 2em 0;
 }
 .footer-col{
    width: 25%;
@@ -152,7 +78,6 @@ ul{
 	color: #24262b;
 	background-color: #ffffff;
 }
-
 /*responsive*/
 @media(max-width: 767px){
   .footer-col{
@@ -165,4 +90,3 @@ ul{
     width: 100%;
 }
 }
-
