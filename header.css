@@ -40,5 +40,19 @@ nav > *{
 }
 
 nav > *:hover{
+<<<<<<< HEAD
 	background-color: rgb(64, 201, 201);
+=======
+	background-color: #40c9c9;
+}
+
+@media(max-width: 767px){
+	nav{ grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;}
+}
+
+@media(max-width: 260px){
+	nav{grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;}
+>>>>>>> 89bfe3f93cce204a7cf08418be34c7765ec5b7e4
 }
