@@ -1,0 +1,144 @@
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #272525;
+	padding-bottom: 2em;
+}
+
+main > *{
+	font-family: "Bebas Neue", sans-serif;
+	color: rgb(75, 239, 239);
+	margin: 6; 
+}
+
+.home{background-color: #dce5e6;}
+
+main > h1{
+	font-size: 40px;
+	letter-spacing: 0.2em;
+	margin: 0;
+}
+
+.first-paragraph{
+	display: flex;
+	padding: 0em;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2em;
+	margin-top: 4em;
+}
+
+.first-paragraph > img {
+	height: 20em;
+	border-radius: 1em;
+	width: 400px;
+}
+
+.pro13-img {
+    width: 400px; /* You can set the desired width */
+    height: 33em; /* This will maintain the aspect ratio */
+    border-radius: 1em;
+  }
+
+.first-paragraph > .MovR-12{
+	max-width: 28em;
+	flex-grow: 5;
+	background-color: #3bdddd;
+	padding: 0.5em;
+	border-radius: 1em;
+	font-size: 18px;
+    height: 18em;
+}
+
+.MovR-12 > p, .MovR-13 > p, .reviews > p{
+	font-family: "Oswald", sans-serif;
+	font-weight: normal;
+	margin: 3%;
+	line-height: 1.2em;
+	color: rgb(255, 255, 255);
+	
+}
+.MovR-12 > h2,h3,ul, .MovR-13 > h2,h3,ul{
+	margin: 3%;
+    color: rgb(13, 12, 12);
+}
+
+nav > .buy  *:hover{
+	background-color: #40c9c9;
+    align-items: center;
+    display: flex;
+    margin: 50;  
+}
+
+@media (max-width: 600px) {
+	.info-content {
+	  width: 100%;
+	  padding: 15px;
+	}
+ }
+
+ /* Shweta */
+/* Container to center the content */
+.info-container {
+	text-align: center;
+	margin: 50px auto;
+	font-family: Arial, sans-serif;
+	max-width: 500px;
+  }
+  
+  /* Style for the info button */
+  .info-btn {
+	background-color: #ff6600;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: background-color 0.3s ease;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-btn:hover {
+	background-color: #e65c00;
+  }
+  
+  /* Style for the info content box */
+  .info-content {
+	background-color: #f9f9f9;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	margin-top: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the info content header */
+  .info-content h3 {
+	color: #ff6600;
+	margin-top: 0;
+  }
+  
+  /* Styling the list of features */
+  .info-content ul {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .info-content ul li {
+	margin: 8px 0;
+  }
+  
+  .info-content ul li strong {
+	color: #333;
+  }
+  
+  /* Responsive media query */
+  @media (max-width: 600px) {
+	.info-content {
+	  width: 100%;
+	  padding: 15px;
+	}
+  }

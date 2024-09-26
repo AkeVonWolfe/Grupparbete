@@ -42,7 +42,7 @@ main > h1{
 }
 
 .images > img{
-	max-height: 18em !important;
+	max-height: 18em;
 	max-width: 100%;
 	border-radius: 1em;
 }
