@@ -1,71 +1,85 @@
 body {
 	background-color: #272525;
-  
-  
+	
+	
 }
 
 /* Sektioner*/
 
 .section1 {
-display: flex;
-flex-direction: column;
-img {
-max-width: 500px;
-align-self: center;}
+	display: flex;
+	flex-direction: column;
+	
+	img {
+		max-width: 700px;
+		align-self: center;
+		
+	}	
 }
 
 
 
-.section1 h2 {
-  text-align: center;
-  background-color: rgb(13, 68, 68);
-  margin-bottom: 24px;
-  margin-top: 24px;
-  border: 1px solid white;
-  border-radius: 32em;
+.section1 #h2 {
+	align-self: center;
+	text-align: center;
+	margin-bottom: 24px;
+	margin-top: 24px;
+	font-size: 50px;
+	color: rgb(67, 218, 218);
 }
 
 .section1 h3 {
-	color: solid black;
+	color: rgb(67, 218, 218);
 	text-decoration: underline;
 	font-size: 24px;
+	margin: 24px;
+}
+
+.section1 p {
+	color: white;
 }
 
 .team-container {
-display: flex;
-justify-content: space-around;
-margin: 24px;
-font-family: "Bebas Neue", sans-serif;
-font-size: 20px;
-font-weight: 700;
-
+	display: flex;
+	justify-content: space-around;
+	font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    margin: 3%;
+    line-height: 1.2em;
+    color: rgb(255, 255, 255)
+	
+	
+	
 }
 
 .team-member {
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 10px;
-  text-align: center;
-  position:relative;
+	background-color: #4b4646;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+	position:relative;
+	padding: 24px;
+	margin: 24px;
+	
 }
 
 /*Slut på section 1*/
 
-.section2 {
-  display: flex;
-  justify-content: left;
-  padding: 0.5px;
-  border-radius: 0.5em;
-  margin-top: 20em;
-}
 
 .section2 img {
-position: relative;
-margin: 10px;
-max-width: 50em;
-border-radius: 6px;
+	display: flex;
+	background-color: #4b4646;
+    border: 1px solid black;
+	img {
+		max-width: 350px;
+		align-self: center;
+		
+	}	
 }
 
+
+
+.section2 
 /*Slut på section 2*/
 
 /* footer */
@@ -93,11 +107,11 @@ ul{
 }
 .footer{
 	background-color: #24262b;
-    padding: 70px 0;
+	padding: 70px 0;
 }
 .footer-col{
-   width: 25%;
-   padding: 0 15px;
+	width: 25%;
+	padding: 0 15px;
 }
 .footer-col h4{
 	font-size: 18px;
@@ -153,14 +167,14 @@ ul{
 
 /*responsive*/
 @media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
+	.footer-col{
+		width: 50%;
+		margin-bottom: 30px;
+	}
 }
 @media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
+	.footer-col{
+		width: 100%;
+	}
 }
 
