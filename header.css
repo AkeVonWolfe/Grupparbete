@@ -12,7 +12,7 @@ header{
 	flex-shrink: 1;	
 }
 
-nav{
+.header-nav{
 	margin: 1em;
 	width: 90%;
 	display: grid;
@@ -20,7 +20,7 @@ nav{
 	gap: 1.3em;
 }
 
-nav > *{
+.header-nav > *{
 
 	background-color: rgb(75, 239, 239);
 	border: 2px solid rgb(31, 86, 115);
@@ -35,16 +35,16 @@ nav > *{
 	font-size: 20px;
 }
 
-nav > *:hover{
+.header-nav > *:hover{
 	background-color: #40c9c9;
 }
 
 @media(max-width: 767px){
-	nav{ grid-template-columns: 1fr 1fr;
+	.header-nav{ grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr;}
 }
 
 @media(max-width: 260px){
-	nav{grid-template-columns: 1fr;
+	.header-nav{grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;}
 }

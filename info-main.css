@@ -12,7 +12,7 @@ main > *{
 	margin: 6; 
 }
 
-.home{background-color: #dce5e6;}
+.header-nav > .info{background-color: #dce5e6;}
 
 main > h1{
 	font-size: 40px;
