@@ -1,6 +1,8 @@
+
+
 body {
 	background-color: #272525;
-	position: absolute;
+	position: relative;
 	
 	
 }
@@ -10,15 +12,13 @@ body {
 .section1 {
 	display: flex;
 	flex-direction: column;
-	
-	img {
+	img{
 		max-width: 700px;
 		align-self: center;
 		border-radius: 2em;
 		border: 12px solid black;
 	}	
 }
-
 
 
 .section1 #h2 {
@@ -84,22 +84,28 @@ body {
 }
 
 
- .section2 .list {
-	font-size: 24px;
-	padding: 55px;
-	margin: 3%;
+ .list {
+margin: 2em;
+font-size: 24px;
+	
+	
 
 
 	
 }
 
 .section2 img  {
-	max-width: 250px;
+	max-width: 30%;
+	margin: 24px;
+	margin-top: 15em;
 
 }
 
 /*Slut på section 2*/
 
+.contactform {
+	margin-left: 65%;
+}
 
 form {
     background: #fff;
