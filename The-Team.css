@@ -4,8 +4,12 @@ body {
 	background-color: #272525;
 	position: relative;
 	
-	
 }
+
+.the-team{
+	background-color: #dce5e6; /* Grå färg när man trycker på the team  */
+}
+
 
 /* Sektioner*/
 
