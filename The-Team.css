@@ -6,12 +6,8 @@ body {
 	
 }
 
-.The-Team {
-	background-color: #5cb85c;
-}
 
-
-/* Sektioner*/
+/* Sektion1 */
 
 .section1 {
 	display: flex;
@@ -142,8 +138,57 @@ button:hover {
     background: #4cae4c;
 }
 
+/*  Header */
 
+header{
+	background-color: #161414;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+.logo-img{
+	flex-basis: 10em;
+	max-width: 10em;
+	flex-shrink: 1;	
+}
+
+.header-nav{
+	margin: 1em;
+	width: 90%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 1.3em;
+}
+
+.header-nav > *{
+
+	background-color: rgb(75, 239, 239);
+	border: 2px solid rgb(31, 86, 115);
+	border-radius: 0.5em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(22, 20, 20);
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.header-nav > *:hover{
+	background-color: #40c9c9;
+}
+
+@media(max-width: 767px){
+	.header-nav{ grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;}
+}
+
+@media(max-width: 260px){
+	.header-nav{grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;}
+}
 /* footer */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
