@@ -25,7 +25,7 @@ main > h1{
 	padding: 0em;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 2em;
+	gap: 1em;
 	margin-top: 4em;
 }
 
@@ -36,22 +36,22 @@ main > h1{
 }
 
 .pro13-img {
-    width: 400px; /* You can set the desired width */
-    height: 33em; /* This will maintain the aspect ratio */
+    width: 400px; 
+    height: 33em; 
     border-radius: 1em;
   }
 
 .first-paragraph > .MovR-12{
 	max-width: 28em;
 	flex-grow: 5;
-	background-color: #3bdddd;
+	background-color: #4b4646;;
 	padding: 0.5em;
 	border-radius: 1em;
 	font-size: 18px;
     height: 18em;
 }
 
-.MovR-12 > p, .MovR-13 > p, .reviews > p{
+.MovR-12 > p, .MovR-13 > p {
 	font-family: "Oswald", sans-serif;
 	font-weight: normal;
 	margin: 3%;
@@ -61,84 +61,74 @@ main > h1{
 }
 .MovR-12 > h2,h3,ul, .MovR-13 > h2,h3,ul{
 	margin: 3%;
-    color: rgb(13, 12, 12);
 }
+
+.MovR-12 >ul, .MovR-13 > ul{
+	margin: 3%;
+}
+
 
 nav > .buy  *:hover{
 	background-color: #40c9c9;
-    align-items: center;
-    display: flex;
-    margin: 50;  
 }
 
-@media (max-width: 600px) {
-	.info-content {
-	  width: 100%;
-	  padding: 15px;
-	}
- }
+nav> .buy {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 30px;
+	border-radius: 0.5em;
+	margin-left: 20em;
+	width: 200px;
+}
+.buy-nav {
+    display: flex;                /* Enable flexbox */
+    justify-content: center;       /* Center the button horizontally */
+    align-items: center;           /* Center the button vertically */
+    margin-top: 0.00001em;              /* Add space above the button */
+}
+  
+* Center the Buy Now button in the nav */
+.buy-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.00001em;
+}
 
- /* Shweta */
-/* Container to center the content */
-.info-container {
-	text-align: center;
-	margin: 50px auto;
-	font-family: Arial, sans-serif;
-	max-width: 500px;
-  }
-  
-  /* Style for the info button */
-  .info-btn {
-	background-color: #ff6600;
-	color: white;
-	border: none;
-	padding: 10px 20px;
-	font-size: 16px;
-	font-weight: bold;
-	cursor: pointer;
-	border-radius: 8px;
-	transition: background-color 0.3s ease;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .info-btn:hover {
-	background-color: #e65c00;
-  }
-  
-  /* Style for the info content box */
-  .info-content {
-	background-color: #f9f9f9;
-	padding: 20px;
-	border: 1px solid #ccc;
-	border-radius: 8px;
-	margin-top: 20px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style for the info content header */
-  .info-content h3 {
-	color: #ff6600;
-	margin-top: 0;
-  }
-  
-  /* Styling the list of features */
-  .info-content ul {
-	list-style-type: none;
-	padding: 0;
-  }
-  
-  .info-content ul li {
-	margin: 8px 0;
-  }
-  
-  .info-content ul li strong {
-	color: #333;
-  }
-  
-  /* Responsive media query */
-  @media (max-width: 600px) {
-	.info-content {
-	  width: 100%;
-	  padding: 15px;
-	}
-  }
+/* Media Query for Mobile Screens (max-width: 600px) */
+@media (max-width: 600px) {
+    /* Flexbox adjustments for smaller screens */
+    .first-paragraph {
+        flex-direction: column;   /* Stack elements vertically */
+        align-items: center;      /* Center elements */
+    }
+
+    /* Reduce image size for smaller screens */
+    .first-paragraph > img, .pro13-img {
+        width: 100%;              /* Let images take the full width of the screen */
+        height: auto;             /* Maintain aspect ratio */
+    }
+
+    /* Adjust product detail container */
+    .first-paragraph > .MovR-12 {
+        width: 90%;              /* Adjust the width to take most of the screen */
+        height: auto;            /* Let the height adjust automatically */
+    }
+
+    /* Reduce padding and margins to fit content better on mobile */
+    main {
+        padding-bottom: 1em;
+    }
+
+    /* Reduce text size for better readability on smaller screens */
+    main > h1 {
+        font-size: 30px;         /* Scale down font size */
+    }
+
+    /* Adjust button width for mobile */
+    nav > .buy {
+        width: 100%;            /* Button takes full width on mobile */
+        margin-left: 0;
+    }
+}
