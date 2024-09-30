@@ -88,17 +88,47 @@ nav> .buy {
     margin-top: 0.00001em;              /* Add space above the button */
 }
   
-@media (max-width: 600px) {
-	.info-content {
-	  width: 100%;
-	  padding: 15px;
-	}
- }
+* Center the Buy Now button in the nav */
+.buy-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.00001em;
+}
 
-  /* Responsive media query */
-  @media (max-width: 600px) {
-	.info-content {
-	  width: 100%;
-	  padding: 15px;
-	}
-  }
+/* Media Query for Mobile Screens (max-width: 600px) */
+@media (max-width: 600px) {
+    /* Flexbox adjustments for smaller screens */
+    .first-paragraph {
+        flex-direction: column;   /* Stack elements vertically */
+        align-items: center;      /* Center elements */
+    }
+
+    /* Reduce image size for smaller screens */
+    .first-paragraph > img, .pro13-img {
+        width: 100%;              /* Let images take the full width of the screen */
+        height: auto;             /* Maintain aspect ratio */
+    }
+
+    /* Adjust product detail container */
+    .first-paragraph > .MovR-12 {
+        width: 90%;              /* Adjust the width to take most of the screen */
+        height: auto;            /* Let the height adjust automatically */
+    }
+
+    /* Reduce padding and margins to fit content better on mobile */
+    main {
+        padding-bottom: 1em;
+    }
+
+    /* Reduce text size for better readability on smaller screens */
+    main > h1 {
+        font-size: 30px;         /* Scale down font size */
+    }
+
+    /* Adjust button width for mobile */
+    nav > .buy {
+        width: 100%;            /* Button takes full width on mobile */
+        margin-left: 0;
+    }
+}
