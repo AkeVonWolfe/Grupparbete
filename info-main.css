@@ -20,7 +20,7 @@ main > h1{
 	margin: 0;
 }
 
-.first-paragraph{
+.firstMovR-paragraph{
 	display: flex;
 	padding: 0em;
 	flex-wrap: wrap;
@@ -29,7 +29,7 @@ main > h1{
 	margin-top: 4em;
 }
 
-.first-paragraph > img {
+.firstMovR-paragraph > img {
 	height: 20em;
 	border-radius: 1em;
 	width: 400px;
@@ -41,7 +41,7 @@ main > h1{
     border-radius: 1em;
   }
 
-.first-paragraph > .MovR-12{
+.firstMovR-paragraph> .MovR-12{
 	max-width: 28em;
 	flex-grow: 5;
 	background-color: #4b4646;;
@@ -68,11 +68,11 @@ main > h1{
 }
 
 
-nav > .buy  *:hover{
-	background-color: #40c9c9;
+.buylink-nav *:hover{
+	background-color: #ecf1f1;
 }
 
-nav> .buy {
+nav> .buylink {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -80,38 +80,34 @@ nav> .buy {
 	border-radius: 0.5em;
 	margin-left: 20em;
 	width: 200px;
-}
-.buy-nav {
-    display: flex;                /* Enable flexbox */
-    justify-content: center;       /* Center the button horizontally */
-    align-items: center;           /* Center the button vertically */
-    margin-top: 0.00001em;              /* Add space above the button */
+	background-color: rgb(75, 239, 239);
+	border: 2px solid rgb(31, 86, 115);
+	border-radius: 0.5em;
+	color: rgb(22, 20, 20);
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	text-decoration: none;
 }
   
-* Center the Buy Now button in the nav */
-.buy-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0.00001em;
-}
+
 
 /* Media Query for Mobile Screens (max-width: 600px) */
 @media (max-width: 600px) {
     /* Flexbox adjustments for smaller screens */
-    .first-paragraph {
+    .firstMovR-paragraph {
         flex-direction: column;   /* Stack elements vertically */
         align-items: center;      /* Center elements */
     }
 
     /* Reduce image size for smaller screens */
-    .first-paragraph > img, .pro13-img {
+    .firstMovR-paragraph > img, .pro13-img {
         width: 100%;              /* Let images take the full width of the screen */
         height: auto;             /* Maintain aspect ratio */
     }
 
     /* Adjust product detail container */
-    .first-paragraph > .MovR-12 {
+    .firstMovR-paragraph > .MovR-12 {
         width: 90%;              /* Adjust the width to take most of the screen */
         height: auto;            /* Let the height adjust automatically */
     }
@@ -127,7 +123,7 @@ nav> .buy {
     }
 
     /* Adjust button width for mobile */
-    nav > .buy {
+    nav > .buylink {
         width: 100%;            /* Button takes full width on mobile */
         margin-left: 0;
     }
